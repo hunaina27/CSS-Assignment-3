@@ -7,12 +7,13 @@
     body {
       background-color: #f8f9fb;
       color: #2d2d2d;
+      
     }
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #fff;
+      background: rgba(255, 255, 255, 1);
       height: 84;
       opacity: 1;
       top: 273px;
@@ -24,11 +25,44 @@
       padding-left: 144px;
 
     }
+   
+
+
+  .logo {
+  display: flex;
+  align-items: center;
+  gap: 5.57px;
+  opacity: 1;
+  width: 107.53605651855469px;
+  height: 16.70566749572754px;
+
+}
+
+.logo-image {
+  width: 24.36px;
+  height: 16.70px;
+  opacity: 1;
+}
+
+.logo-text {
+  color: #263238;
+  font-weight: 600;
+  font-size: 18px;
+  width: 77.60px;
+  height: 14.38px;
+  opacity: 1;
+
+}
     nav a {
       margin: 0 1rem;
       color: #333;
       text-decoration: none;
       font-weight: 500;
+      width: 650.48px;
+      height: 36.48px;
+      opacity: 1;
+      gap: 22.27px;
+
     }
     .btn {
       background-color: #4caf50;
@@ -43,8 +77,16 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 4rem;
-      background-color: #f1f5f9;
+      background-color: rgba(245, 247, 250, 1);
+      width: 1002.3400268554688;
+      height: 416.94561767578125;
+      opacity: 1;
+      gap: 72.39px;
+      padding-top: 66.82px;
+      padding-right: 100.23px;
+      padding-bottom: 66.82px;
+      padding-left: 100.23px;
+
     }
     .hero h1 {
       font-size: 2.5rem;
