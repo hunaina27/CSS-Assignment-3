@@ -1,0 +1,117 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f8f9fb;
+      color: #2d2d2d;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      height: 84;
+      opacity: 1;
+      top: 273px;
+      left: 26px;
+      gap: 63px;
+      padding-top: 16px;
+      padding-right: 144px;
+      padding-bottom: 16px;
+      padding-left: 144px;
+
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .btn {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4rem;
+      background-color: #f1f5f9;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .hero h1 span {
+      color: #4caf50;
+    }
+    .hero p {
+      margin: 1rem 0;
+      color: #555;
+    }
+    .clients, .statistics, .footer-top, .footer {
+      padding: 4rem;
+      background-color: #fff;
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding: 4rem;
+      background-color: #f8f9fb;
+    }
+    .feature-box {
+      max-width: 250px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+    .footer-top {
+      background-color: #e8f5e9;
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: #fff;
+      padding: 3rem 4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 2rem;
+    }
+    footer h4 {
+      margin-bottom: 1rem;
+    }
+    footer ul {
+      list-style: none;
+    }
+    footer ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer ul li a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    .newsletter input[type=email] {
+      padding: 0.5rem;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+    .center-section {
+      text-align: center;
+      padding: 4rem;
+      background-color: #f1f5f9;
+    }
